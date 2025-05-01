@@ -74,7 +74,7 @@ Replace `<path-to-fabric-mcp-server>` with the actual path to the `fabric-mcp-se
 5. **Restart VSCode**: Restart VSCode or reload the Cline extension to apply the changes.
 
 ## Tips for Using it with Cline
-To maximize the benefits of `fabric-mcp-server` with Cline, consider adding the following rule to your `.clinerules` file:
+To maximize the benefits of `fabric-mcp-server` with Cline, add `use fabric-mcp-server` at the end of your prompts or consider adding the following rule to your `.clinerules` file:
 ```markdown
 # Fabric MCP Server Rule
 1. **List Fabric Patterns**: When a new task is created, list all pattern names from the Fabric repository.
