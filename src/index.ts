@@ -19,7 +19,7 @@ import { readdirSync, readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 
 // Path to the Fabric patterns directory
-const PATTERNS_DIR = 'C:/Users/adapo/OneDrive/Documents/test2/fabric/patterns';
+const PATTERNS_DIR = process.env.FABRIC_PATTERNS_DIR || './patterns';
 
 // Create a new MCP server
 const server = new Server(
