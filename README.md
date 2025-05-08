@@ -16,6 +16,10 @@
 ## Introduction
 The `fabric-mcp-server` is a Model Context Protocol (MCP) server designed to expose Fabric patterns as tools for integration with Cline. This integration enhances Cline's capabilities by leveraging AI-driven pattern execution from the Fabric repository.
 
+<a href="https://glama.ai/mcp/servers/@adapoet/fabric-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@adapoet/fabric-mcp-server/badge" alt="Fabric Server MCP server" />
+</a>
+
 ## What is Model Context Protocol (MCP)?
 The Model Context Protocol (MCP) is a specification that facilitates communication between AI systems and external tools or resources. It standardizes the way AI models interact with various capabilities such as databases, APIs, and file systems. MCP servers, like `fabric-mcp-server`, implement this protocol to make tools and resources accessible to AI models, thereby expanding their functional scope.
 
