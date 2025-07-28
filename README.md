@@ -15,7 +15,7 @@
 12. [License](#license)
 
 ## Introduction
-The `fabric-mcp-server` is a Model Context Protocol (MCP) server designed to expose Fabric patterns as tools for integration with AI coding agents and assistants. This integration enhances AI capabilities by leveraging AI-driven pattern execution from the Fabric repository. The server works with various AI platforms including Claude Desktop, Cline, and other MCP-compatible AI agents.
+The `fabric-mcp-server` is a Model Context Protocol (MCP) server designed to expose [Daniel Miessler's Fabric](https://github.com/danielmiessler/Fabric/tree/main) patterns as tools for integration with AI coding agents and assistants. This integration enhances AI capabilities by leveraging AI-driven pattern execution from the Fabric repository. The server works with various AI platforms including Claude Desktop, Cline, and other MCP-compatible AI agents.
 
 <a href="https://glama.ai/mcp/servers/@adapoet/fabric-mcp-server">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@adapoet/fabric-mcp-server/badge" alt="Fabric Server MCP server" />
@@ -38,7 +38,7 @@ The `fabric-mcp-server` exposes a wide range of Fabric patterns as tools. Some e
 - `create_mermaid_visualization`
 - And many more...
 
-To see the full list of available patterns, you can list the directories in the `fabric/patterns` directory.
+To see the full list of available patterns, you can list the directories in the `[fabric/patterns](https://github.com/danielmiessler/Fabric/tree/main/data/patterns)` directory.
 
 ## Installation
 1. **Clone the Repository**: Clone the `fabric-mcp-server` repository to your local system.
